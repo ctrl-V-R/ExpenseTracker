@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Config Server",
+      "request": "launch",
+      "mainClass": "com.example.configserver.ConfigServerApplication",
+      "projectName": "config-server"
+    },
+    {
+      "type": "java",
+      "name": "Run Eureka Server",
+      "request": "launch",
+      "mainClass": "com.example.eurekaserver.EurekaServerApplication",
+      "projectName": "eureka-server"
+    },
+    {
+      "type": "java",
+      "name": "Run API Gateway",
+      "request": "launch",
+      "mainClass": "com.example.gateway.GatewayApplication",
+      "projectName": "gateway-service"
+    },
+    {
+      "type": "java",
+      "name": "Run Expense Service",
+      "request": "launch",
+      "mainClass": "com.example.expense.ExpenseServiceApplication",
+      "projectName": "expense-service"
+    },
+    {
+      "type": "java",
+      "name": "Run User Service",
+      "request": "launch",
+      "mainClass": "com.example.user.UserServiceApplication",
+      "projectName": "user-service"
+    },
+    {
+      "type": "java",
+      "name": "Run Category Service",
+      "request": "launch",
+      "mainClass": "com.example.category.CategoryServiceApplication",
+      "projectName": "category-service"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "java.dependency.syncWithFolderExplorer": true,
+
+  "docker.showExplorer": true,
+  "docker.defaultRegistryPath": "",
+  "docker.enableDockerCompose": true,
+
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  "maven.executable.path": "mvn", // Adjust if using wrapper or custom Maven location
+
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "host": "localhost",
+      "port": "8080"
+    },
+    "dev": {
+      "jwt": "your-dev-token"
+    }
+  }
+}
